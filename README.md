@@ -38,6 +38,10 @@ People from any organization may participate with personal GitHub accounts, as l
 
 Pull requests are welcome, but all incoming content is treated as untrusted until reviewed. Merging a pull request does not grant collaborator status, maintainer rights, direct push access, or secret access.
 
+## About Mesttra
+
+AI-Human-Swarm is hosted under the `mesttra-tech` GitHub organization. Contributors can read [Mesttra Briefing For Contributors](docs/mesttra-briefing.md) to understand the public context for the project and how to engage safely.
+
 ## Safety Line
 
 This project is defensive and educational only.
