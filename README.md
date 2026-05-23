@@ -30,6 +30,12 @@ Each patch should be public-safe and defensive. It may cover:
 - Actively exploited CVEs and practical hardening steps.
 - Defensive AI techniques that help people detect, verify, and respond.
 
+## Threat Feed
+
+People who want to learn about current cyber attacks can follow the [Threat Feed](threat-feed/README.md) directly on GitHub.
+
+The feed is a public reading stream for defensive research, threat explainers, AI resiliency lessons, and practical next steps. Daily patches remain operational and copy/paste oriented; Threat Feed posts are easier to read, share, and later adapt into channels such as Instagram, LinkedIn, newsletters, or short-form updates.
+
 ## Collaboration Model
 
 Anyone can open issues and pull requests. Approved collaborator status is invitation-only.
