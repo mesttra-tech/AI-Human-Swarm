@@ -1,0 +1,11 @@
+# Sensitive project surfaces require maintainer review.
+* @gmaiera
+
+.github/ @gmaiera
+daily-cyber-patches/ @gmaiera
+docs/ @gmaiera
+skills/ @gmaiera
+CONTRIBUTING.md @gmaiera
+GOVERNANCE.md @gmaiera
+PUBLICATION_CHECKLIST.md @gmaiera
+SECURITY.md @gmaiera

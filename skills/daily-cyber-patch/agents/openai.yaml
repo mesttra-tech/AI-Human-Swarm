@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Cyber Patch"
+  short_description: "Create public-safe daily defensive cyber patches."
+  default_prompt: "Use $daily-cyber-patch to research current cyber threats and produce a public-safe daily patch with assessment, remediation, verification, and sources."
