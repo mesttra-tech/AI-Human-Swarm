@@ -38,6 +38,12 @@ People from any organization may participate with personal GitHub accounts, as l
 
 Pull requests are welcome, but all incoming content is treated as untrusted until reviewed. Merging a pull request does not grant collaborator status, maintainer rights, direct push access, or secret access.
 
+## **mesttra** AI Resiliency Plan
+
+AI-Human-Swarm is hosted under the `mesttra-tech` GitHub organization. The central project is the [**mesttra** AI Resiliency Plan](docs/mesttra-briefing.md): a defensive operating model for helping companies connect AI agents and MCP-enabled workflows while monitoring cyber readiness, infrastructure operations, dependency risk, automation governance, and AI adoption maturity.
+
+Companies can express interest without scheduling a call first by opening an **AI Resiliency Plan interest** issue. The issue form asks for public company context, company website, approximate size, contact role, decision role, AI goals, maturity, risk areas, systems involved, timeline, and preferred next step.
+
 ## Safety Line
 
 This project is defensive and educational only.
