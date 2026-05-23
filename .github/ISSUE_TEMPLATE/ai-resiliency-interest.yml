@@ -1,0 +1,217 @@
+name: AI Resiliency Plan interest
+description: Qualify interest in mesttra's AI Resiliency Plan, AI implementation, or MCP-based readiness work.
+title: "[AI Resiliency Interest]: "
+labels:
+  - customer-interest
+  - ai-resiliency
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to express interest asynchronously, without scheduling a call first.
+
+        This is a public GitHub issue. Do not include secrets, credentials, private logs,
+        customer data, security findings, internal URLs, contracts, private architecture,
+        or sensitive operational details.
+
+  - type: input
+    id: company_name
+    attributes:
+      label: Company name
+      description: Public company or organization name.
+      placeholder: Example Company
+    validations:
+      required: true
+
+  - type: input
+    id: company_website
+    attributes:
+      label: Company website
+      description: Public website we can review to understand company context and approximate size.
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_profiles
+    attributes:
+      label: Public company profiles
+      description: Optional public links such as LinkedIn company page, GitHub organization, product page, careers page, or public funding/profile pages.
+      placeholder: |
+        LinkedIn:
+        GitHub:
+        Product page:
+        Careers page:
+        Other public profile:
+    validations:
+      required: false
+
+  - type: dropdown
+    id: company_size
+    attributes:
+      label: Approximate company size
+      description: If unsure, choose "Not sure - estimate from public sources".
+      options:
+        - 1-10
+        - 11-50
+        - 51-200
+        - 201-1,000
+        - 1,001-5,000
+        - 5,001+
+        - Not sure - estimate from public sources
+    validations:
+      required: true
+
+  - type: input
+    id: contact_name
+    attributes:
+      label: Your name
+      description: Name or public handle of the person contacting the project.
+      placeholder: Name or GitHub handle
+    validations:
+      required: true
+
+  - type: input
+    id: contact_role
+    attributes:
+      label: Your role
+      description: Your public role or relationship to the company.
+      placeholder: Founder, CEO, CTO, CISO, VP, Director, Manager, Engineer, Consultant, Investor, Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: decision_role
+    attributes:
+      label: Your decision role
+      description: Helps us understand whether you are a decision maker, sponsor, evaluator, or contributor.
+      options:
+        - Final decision maker
+        - Budget owner
+        - Executive sponsor
+        - Technical decision maker
+        - Security or risk evaluator
+        - Operations or infrastructure owner
+        - Researching options for leadership
+        - Individual contributor
+        - External advisor or consultant
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: primary_interest
+    attributes:
+      label: Primary interest
+      options:
+        - AI Resiliency Plan
+        - MCP-based monitoring
+        - Cyber readiness review
+        - Infrastructure operations readiness
+        - AI implementation program
+        - AI talent development
+        - Agent governance and approval flows
+        - Not sure - help us choose
+    validations:
+      required: true
+
+  - type: textarea
+    id: ai_goals
+    attributes:
+      label: AI goals
+      description: What are you trying to make possible with AI?
+      placeholder: Automate workflows, improve support, build internal copilots, connect tools, reduce manual operations, improve security readiness...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ai_maturity
+    attributes:
+      label: Current AI maturity
+      options:
+        - Exploring AI use cases
+        - Running experiments
+        - Running pilots with real users
+        - Using AI in production
+        - Scaling AI across teams
+        - Need help assessing maturity
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: risk_areas
+    attributes:
+      label: Main risk areas
+      description: Select all that apply.
+      options:
+        - label: Cyber readiness
+        - label: Infrastructure operations
+        - label: CI/CD and deployment risk
+        - label: Dependency or package supply-chain risk
+        - label: Credential and secret exposure
+        - label: AI agent permissions
+        - label: MCP server/tool governance
+        - label: Data access and privacy
+        - label: Human approval and audit trails
+        - label: Incident response readiness
+        - label: Team training and adoption
+
+  - type: textarea
+    id: systems
+    attributes:
+      label: Systems or areas that may need integration
+      description: Use categories only. Do not include private URLs, tokens, credentials, diagrams, or sensitive architecture.
+      placeholder: GitHub, CI/CD, cloud, ERP, CRM, data warehouse, help desk, observability, security tools, internal knowledge base...
+    validations:
+      required: false
+
+  - type: textarea
+    id: current_blockers
+    attributes:
+      label: Current blockers
+      description: What is making AI adoption, AI operations, or AI security hard right now? Keep this public-safe.
+      placeholder: Lack of visibility, unclear ownership, no approval workflow, dependency risk, unclear security model, insufficient training...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: timeline
+    attributes:
+      label: Timeline
+      options:
+        - Exploring only
+        - This quarter
+        - Next 30 days
+        - Urgent
+        - Already in progress
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preferred_next_step
+    attributes:
+      label: Preferred next step
+      options:
+        - Reply in this GitHub issue with suggested path
+        - Share a public checklist we can run internally
+        - Suggest an AI Resiliency Plan starting point
+        - Suggest a lightweight readiness assessment
+        - We may want a private follow-up later
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: public_research_permission
+    attributes:
+      label: Public research permission
+      options:
+        - label: You may review our public website and public company profiles to understand our company context and approximate size.
+          required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public safety confirmation
+      options:
+        - label: I did not include secrets, credentials, private logs, customer data, internal URLs, contracts, private architecture, or sensitive operational details.
+          required: true

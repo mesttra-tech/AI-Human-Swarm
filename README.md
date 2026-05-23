@@ -30,6 +30,12 @@ Each patch should be public-safe and defensive. It may cover:
 - Actively exploited CVEs and practical hardening steps.
 - Defensive AI techniques that help people detect, verify, and respond.
 
+## Threat Feed
+
+People who want to learn about current cyber attacks can follow the [Threat Feed](threat-feed/README.md) directly on GitHub.
+
+The feed is a public reading stream for defensive research, threat explainers, AI resiliency lessons, and practical next steps. Daily patches remain operational and copy/paste oriented; Threat Feed posts are easier to read, share, and later adapt into channels such as Instagram, LinkedIn, newsletters, or short-form updates.
+
 ## Collaboration Model
 
 Anyone can open issues and pull requests. Approved collaborator status is invitation-only.
@@ -37,6 +43,12 @@ Anyone can open issues and pull requests. Approved collaborator status is invita
 People from any organization may participate with personal GitHub accounts, as long as contributions follow the public-safety rules.
 
 Pull requests are welcome, but all incoming content is treated as untrusted until reviewed. Merging a pull request does not grant collaborator status, maintainer rights, direct push access, or secret access.
+
+## **mesttra** AI Resiliency Plan
+
+AI-Human-Swarm is hosted under the `mesttra-tech` GitHub organization. The central project is the [**mesttra** AI Resiliency Plan](docs/mesttra-briefing.md): a defensive operating model for helping companies connect AI agents and MCP-enabled workflows while monitoring cyber readiness, infrastructure operations, dependency risk, automation governance, and AI adoption maturity.
+
+Companies can express interest without scheduling a call first by opening an **AI Resiliency Plan interest** issue. The issue form asks for public company context, company website, approximate size, contact role, decision role, AI goals, maturity, risk areas, systems involved, timeline, and preferred next step.
 
 ## Safety Line
 

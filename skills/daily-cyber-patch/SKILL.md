@@ -70,6 +70,12 @@ Mode: Public defensive guidance. No private environment data included.
 ## Public Safety Checklist
 ```
 
+## Optional Threat Feed Post
+
+When the daily research produces a threat that people should understand, also draft a public-readable post under `threat-feed/YYYY-MM-DD-short-title.md` using `threat-feed/TEMPLATE.md`.
+
+The feed post should explain what happened, why it matters, who should pay attention, defensive actions, and the AI resiliency angle. It may include a short social draft for later channels, but only after the content remains defensive, source-backed, and safe to share.
+
 ## Safety Rules
 
 Do not include:
