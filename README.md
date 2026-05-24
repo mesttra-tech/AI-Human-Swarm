@@ -36,6 +36,12 @@ People who want to learn about current cyber attacks can follow the [Threat Feed
 
 The feed is a public reading stream for defensive research, threat explainers, AI resiliency lessons, and practical next steps. Daily patches remain operational and copy/paste oriented; Threat Feed posts are easier to read, share, and later adapt into channels such as Instagram, LinkedIn, newsletters, or short-form updates.
 
+## Roadmap
+
+Reusable defensive patch tracks live in the [Roadmap](roadmap/README.md).
+
+The first macOS track is [macOS Workstation Security Hardening](roadmap/patches/macos-workstation-security-hardening.md), a public-safe patch for reducing common local exposure on AI-assisted developer machines.
+
 ## Collaboration Model
 
 Anyone can open issues and pull requests. Approved collaborator status is invitation-only.
