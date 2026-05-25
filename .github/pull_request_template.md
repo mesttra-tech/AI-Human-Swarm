@@ -18,6 +18,8 @@ Describe what this pull request changes and why.
 - [ ] I did not include commands that print environment variables, auth files, cookies, SSH keys, shell history, or secret stores.
 - [ ] I did not include shortened links, opaque downloads, or `curl | bash` style instructions.
 - [ ] Runnable commands are readable, defensive, and include verification steps.
+- [ ] If this is maintainer-authored, maintainer self-review is complete and no approval from another person is required.
+- [ ] If this is external or non-maintainer-authored, maintainer review is required before merge.
 
 ## Sources
 

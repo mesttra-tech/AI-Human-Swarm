@@ -11,4 +11,5 @@ Before publishing content to this repository, confirm:
 - AI-assisted content is disclosed in the pull request.
 - Runnable commands are defensive, reviewable, and include verification steps.
 - Daily patches are generic public guidance, not private scan results.
-- Maintainer review is complete before merge.
+- External or non-maintainer contributions have maintainer review before merge.
+- Maintainer-authored contributions have been self-reviewed against this checklist; approval from another person is not required.

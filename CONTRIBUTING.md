@@ -36,6 +36,8 @@ Every pull request should:
 
 ## Review Rule
 
-If a pull request includes runnable commands, scripts, workflows, or agent instructions, a maintainer must inspect or test them before merge.
+External or non-maintainer pull requests that include runnable commands, scripts, workflows, or agent instructions must be inspected or tested by a maintainer before merge.
+
+Maintainer-authored contributions can be self-reviewed by the maintainer and do not require approval from another person before publication.
 
 Merging a pull request does not grant approved collaborator status. Approved collaborator status remains invitation-only.

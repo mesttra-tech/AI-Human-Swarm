@@ -22,7 +22,9 @@ If you accidentally publish a secret:
 
 ## Untrusted Contributions
 
-All public pull requests are treated as untrusted until reviewed.
+Public pull requests from external contributors and non-maintainers are treated as untrusted until maintainer review.
+
+Maintainer-authored contributions may be self-reviewed by the maintainer and do not require approval from another person, but they must still follow the public-safety and safe-command standards in this repository.
 
 Repository secrets must not be exposed to forked pull requests. Workflows from first-time contributors should require maintainer approval before running.
 
