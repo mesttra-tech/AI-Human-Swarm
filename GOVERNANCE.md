@@ -2,7 +2,7 @@
 
 AI-Human-Swarm is a public, defensive, community-maintained project.
 
-The project is open to contributions, but trust is explicit and limited. All incoming contributions are treated as untrusted until reviewed.
+The project is open to contributions, but trust is explicit and limited. External and non-maintainer contributions are treated as untrusted until maintainer review.
 
 ## Roles
 
@@ -11,6 +11,7 @@ The project is open to contributions, but trust is explicit and limited. All inc
 Maintainers can:
 
 - Review and merge pull requests.
+- Self-review and publish maintainer-authored contributions without approval from another person.
 - Invite approved collaborators.
 - Manage releases and project direction.
 - Configure repository settings.
@@ -46,6 +47,8 @@ External contributors do not receive collaborator status automatically. Merging 
 The project accepts contributions, not implicit trust.
 
 Repeated safe contributions may lead to an invitation, but approved collaborator status is always a manual maintainer decision.
+
+Maintainer-authored contributions still need to satisfy the public-safety rules, but maintainer self-review is sufficient for publication.
 
 ## Decision Rules
 

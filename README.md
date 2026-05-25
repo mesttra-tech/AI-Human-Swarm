@@ -42,7 +42,9 @@ Anyone can open issues and pull requests. Approved collaborator status is invita
 
 People from any organization may participate with personal GitHub accounts, as long as contributions follow the public-safety rules.
 
-Pull requests are welcome, but all incoming content is treated as untrusted until reviewed. Merging a pull request does not grant collaborator status, maintainer rights, direct push access, or secret access.
+Pull requests are welcome, but external and non-maintainer content is treated as untrusted until maintainer review. Merging a pull request does not grant collaborator status, maintainer rights, direct push access, or secret access.
+
+Maintainer-authored contributions must still follow the public-safety rules, but they can be self-reviewed and published by the maintainer without approval from another person.
 
 ## **mesttra** AI Resiliency Plan
 
