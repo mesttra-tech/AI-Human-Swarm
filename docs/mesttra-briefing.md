@@ -6,7 +6,7 @@ The core project behind AI-Human-Swarm is the **AI Resiliency Plan**: a defensiv
 
 Public context: **mesttra** presents itself through technology education, mentoring, digital inclusion, talent development, impact-company programs, and connection between people and technology opportunities. This project turns that practical learning model toward AI implementation and AI resilience.
 
-Public source: <https://www.mesttra.com/>
+Public source: <https://www.mesttra.com>
 
 ## What The AI Resiliency Plan Helps Companies Do
 
